@@ -4,7 +4,9 @@
 ## ADD,COMMIT,PUSH
  
 ```
+**
 Git add -a or git add -A -> to add all updated ,deleted, updated files
+**
 ```
 
  
