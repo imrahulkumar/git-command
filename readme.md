@@ -11,7 +11,7 @@ Git add -a or git add -A -> to add all updated ,deleted, updated files
 
 ```
 Git add -a . -> it will only add new files and updated files.
-
+```
  
 ```
 Git add -u -> looks at all the already tracked files and stages the changes to those files if they are different or if they have been removed.
@@ -75,7 +75,7 @@ Git config --global alias.variablename “command to be issued” -> to create y
 ```
 
 
-COMPARISON COMMANDS
+## COMPARISON COMMANDS
  
 ```
 Git diff -> to check what’s changed in the files local vs staged.
@@ -109,7 +109,7 @@ Git diff master origin/master => diff b/w what is committed vs origin master
 ```
  
 
-BRANCH AND MERGING
+## BRANCH AND MERGING
  
 ```
 Git branch -> to check your current branch
@@ -155,7 +155,7 @@ Git rebase --abort -> to abort changes of rebase
 ```
  
 
-STASHING
+## STASHING
  
 ```
 Git stash -> to remove and stash your current changes (only tracked files).
@@ -205,7 +205,7 @@ Git stash clear -> to drop all stash at once
 ```
 
 
-TAGGING
+## TAGGING
  
 ```
 Git tag tagName -> create a tag (lightweight tag) on a commit
