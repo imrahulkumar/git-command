@@ -4,12 +4,8 @@
 ## ADD,COMMIT,PUSH
  
 ```
-**
 Git add -a or git add -A -> to add all updated ,deleted, updated files
-**
 ```
-
- 
 
 ```
 Git add -a . -> it will only add new files and updated files.
@@ -64,6 +60,7 @@ Git log --oneline --graph --decorate -> to get commit in one line and in a prope
 ```
 Git log commit id...commit id -> it will return all the commits b/w these ids
 ```
+
 ```
 Git log --since=”3 days ago” -> give commits of last 3 days
 ```
@@ -102,6 +99,7 @@ Git diff commitId HEAD -> to check diff b/w commit with HEAD
 ```
 Git diff HEAD HEAD^ -> diff b/w head and head minus 1 commit
 ```
+
 ```
 Git diff startCommitId endCommitId -> startCommitId to check diff b/w two commits
 ```
@@ -144,6 +142,7 @@ Git branch -d branchName -> first go to master and run To remove a branch
 ```
 Git merge branchName -> first go to master and run to merge a branch in it.
 ```
+
 ```
 Git merge branchName --no-ff -> first go to master and run to merge a branch in it.
 ```
@@ -224,6 +223,7 @@ Git tag --delete tagName -> to delete a tag
 ```
 Git show tagname => to check tag details
 ```
+
 ```
 Git tag -a tagName -m “message of tag” -> to create a annotate tag
 ```
